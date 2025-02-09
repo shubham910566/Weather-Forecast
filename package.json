@@ -1,0 +1,53 @@
+{
+	"name": "@alloc/quick-lru",
+	"version": "5.2.0",
+	"description": "Simple “Least Recently Used” (LRU) cache",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sindresorhus/quick-lru.git"
+	},
+	"funding": {
+		"url": "https://github.com/sponsors/sindresorhus"
+	},
+	"author": "Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)",
+	"engines": {
+		"node": ">=10"
+	},
+	"scripts": {
+		"test": "xo && nyc ava && tsd"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"keywords": [
+		"lru",
+		"quick",
+		"cache",
+		"caching",
+		"least",
+		"recently",
+		"used",
+		"fast",
+		"map",
+		"hash",
+		"buffer"
+	],
+	"devDependencies": {
+		"ava": "^2.0.0",
+		"coveralls": "^3.0.3",
+		"nyc": "^15.0.0",
+		"tsd": "^0.11.0",
+		"xo": "^0.26.0"
+	},
+	"main": "index.js",
+	"bugs": {
+		"url": "https://github.com/sindresorhus/quick-lru/issues"
+	},
+	"homepage": "https://github.com/sindresorhus/quick-lru#readme",
+	"dependencies": {
+		"@tailwindcss/cli": "^4.0.4",
+		"tailwindcss": "^4.0.4"
+	}
+}
